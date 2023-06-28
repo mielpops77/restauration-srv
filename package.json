@@ -1,0 +1,22 @@
+{
+  "name": "restauration-srv",
+  "version": "1.0.0",
+  "description": "Backend restauration mongoDb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mielpops77/restauration-srv.git"
+  },
+  "keywords": [
+    "Fleurs12"
+  ],
+  "author": "mielpops77",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mielpops77/restauration-srv/issues"
+  },
+  "homepage": "https://github.com/mielpops77/restauration-srv#readme"
+}
