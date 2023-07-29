@@ -4,6 +4,8 @@
   "description": "Backend restauration mongoDb",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon app.js",
+    "lint": "./node_modules/.bin/eslint **/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,12 +13,29 @@
     "url": "git+https://github.com/mielpops77/restauration-srv.git"
   },
   "keywords": [
-    "Fleurs12"
+    "Mongo",
+    "Express",
+    "Angular",
+    "Node"
   ],
   "author": "mielpops77",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mielpops77/restauration-srv/issues"
   },
-  "homepage": "https://github.com/mielpops77/restauration-srv#readme"
+  "homepage": "https://github.com/mielpops77/restauration-srv#readme",
+  "devDependencies": {
+    "add": "^2.0.6",
+    "eslint": "^8.44.0",
+    "nodemon": "^2.0.22",
+    "ou": "^0.0.2",
+    "yarn": "^1.22.19"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "nodemailer": "^6.9.4"
+  }
 }
