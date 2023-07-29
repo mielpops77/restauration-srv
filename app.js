@@ -21,7 +21,6 @@ app.use(express.json());
 app.use('/reservations', reservationRoutes);
 app.use('/reservationsconfig', reservationConfigRoutes);
 
-
 mongoose.connect('mongodb+srv://mangavente:Z2e3zEvFkyI3WU4H@reservation.d9kebmx.mongodb.net/', {
 	useNewUrlParser: true,
 	useUnifiedTopology: true
