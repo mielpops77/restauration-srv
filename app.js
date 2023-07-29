@@ -9,7 +9,7 @@ const reservationConfigRoutes = require('./routes/reservationConfigRoutes');
 app.set('port', (process.env.port || 3000));
 
 var corsOptions = {
-	origin: 'http://localhost:4200',
+	origin: 'https://couscousamdav.azurewebsites.net',
 	methods: ['GET', 'POST'],
 	allowedHeaders: ['Content-Type', 'Authorization']
 };
