@@ -6,7 +6,7 @@ const reservationRoutes = require('./routes/reservationRoutes');
 const reservationConfigRoutes = require('./routes/reservationConfigRoutes');
 
 
-app.set('port', (process.env.port || 3000));
+app.set('port', (process.env.PORT || 3000));
 
 var corsOptions = {
 	origin: 'https://couscousamdav.azurewebsites.net',
